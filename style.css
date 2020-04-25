@@ -1,0 +1,375 @@
+nav {
+    position: fixed;
+    background-color: black;
+    height: 6em;
+    width: 100%;
+    z-index: 10;
+}
+
+body {
+    background-color: #566D73;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    position: absolute;
+    background-color: white;
+    width: 25%;
+    height: 6em;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    height: 6em;
+    padding: 0;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#logomd {
+    margin-right: 50px;
+}
+
+a:hover {
+    text-decoration: none;
+    border-color: red;
+}
+
+.eff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 0;
+}
+
+a:hover .eff {
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+nav > a > span > p {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section > h1 {
+    text-align: center;
+    font-size: 6em;
+    padding: 0 30px;
+    margin: 0;
+    border-style: solid;
+    border-bottom-width: 5px;
+    border-color: white;
+    z-index: 1;
+    color: white;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+em {
+    font-size: 1.2em;
+}
+
+b {
+    font-family: "Times New Roman";
+}
+
+.degradeh {
+    position: relative;
+    top: -50px;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0), #566D73);
+    z-index: 2;
+}
+
+footer {
+    background-color: #303030;
+    color: darkgrey;
+    padding: 20px 0 100px;
+}
+
+footer > h1 {
+    font-size: 1.5em;
+    margin-left: 2em;
+    margin-top: 10px;
+    border-style: solid;
+    border-bottom-width: 10px;
+}
+
+footer > ul {
+    list-style-type: square;
+    margin-left: 2em;
+    margin-top: 20px;
+}
+
+footer > p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.test {
+    height: 10em;
+}
+
+.article-pers {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #000;
+}
+
+.article-pers > div > div > h1 {
+    color: red;
+    font-variant: small-caps;
+    font-family: serif;
+}
+
+.article-pers > div > div > h2 {
+    font-variant: small-caps;
+    font-family: serif;
+}
+
+.article-pers > div > h2 {
+    font-variant: small-caps;
+    font-family: serif;
+}
+
+.explication1 {
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+#div-12 {
+    background-color: antiquewhite;
+    width: 25%;
+    height: 50%;
+    border: 2px solid #000;
+    padding: 5px;
+    margin-right: 20px;
+    margin-top: 10%;
+    color: red;
+    font-family: serif;
+}
+
+#div-11 {
+    width: 100%;
+    padding: 3px;
+}
+
+#div-21 {
+    width: 100%;
+    padding: 3px;
+}
+
+#utili {
+    font-size: 1.3em;
+}
+
+.listsm {
+    margin-left: 40px;
+}
+
+.explication2 {
+    margin-left: 20px;
+    font-size: 1.5em;
+}
+
+#titre1 {
+    color: red;
+    font-variant: small-caps;
+    font-family: serif;
+}
+
+#imagecaps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#imagesite {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#legende {
+    text-align: center;
+}
+
+/* Liens Ancres */
+
+body > div > span {
+    display: block;
+    height: 6em;
+    margin-top: -6em;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        height: 4em;
+        background-color: white;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    }
+
+    nav > a > span > p {
+        font-size: 0.5em;
+        color: black;
+    }
+
+    .menu {
+        height: 0;
+    }
+
+    .link {
+        border-color: white;
+        height: 2em;
+    }
+
+    .eff {
+        background-color: lightgray;
+    }
+
+    .simulogo {
+        padding: 0;
+        width: 167px;
+        height: 30px;
+    }
+
+    #h1 {
+        font-size: 2em;
+    }
+
+    #sm {
+        height: 30em;
+    }
+
+    .section {
+        height: 50vh;
+    }
+
+    .test {
+        height: 5em;
+    }
+
+    .article-pers {
+        padding: 3px;
+        margin: 0;
+    }
+
+    .article-pers > div > div > h1 {
+        color: red;
+        font-variant: small-caps;
+        font-family: serif;
+        font-size: 2.5em;
+    }
+
+    .d-inline-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #div-12 {
+        background-color: antiquewhite;
+        width: 100%;
+        height: 50%;
+        border: 2px solid #000;
+        padding: 5px;
+        margin-right: 20px;
+        margin-top: 10%;
+        color: red;
+        font-family: serif;
+    }
+
+    #div-21 {
+        width: 100%;
+        padding: 3px;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    #titre1 {
+        color: red;
+        font-variant: small-caps;
+        font-family: serif;
+        font-size: 1.8em;
+    }
+
+    .article-pers > div > h2 {
+        font-variant: small-caps;
+        font-family: serif;
+        font-size: 1em;
+    }
+
+    .article-pers > div > div > h2 {
+        font-variant: small-caps;
+        font-family: serif;
+        font-size: 1em;
+    }
+
+    .explication1 {
+        font-size: 0.6em;
+    }
+
+    #utili {
+        font-size: 1em;
+    }
+
+    .explication2 {
+        font-size: 1em;
+        margin-left: 15px;
+    }
+    
+    .listsm {
+        font-size: 0.6em;
+        margin-left: 25px;
+    }
+
+    .listsmtxt {
+        font-size: 0.6em;
+        font-style: italic;
+        margin-left: 25px;
+    }
+
+    body > div > span {
+        height: 4em;
+        margin-top: -4em;
+    }
+}
