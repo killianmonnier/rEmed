@@ -116,7 +116,8 @@ b {
 footer {
     background-color: #303030;
     color: darkgrey;
-    padding: 20px 0 100px;
+    padding: 20px 0 20px;
+    margin-top: 100px;
 }
 
 footer > h1 {
