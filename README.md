@@ -4,7 +4,7 @@ Ce site web sur le thème de l'informatique et de la santé a été développé 
 
 Ce projet nous a appris à nous organiser et travailler efficacement en équipe.
 
-# Preview
+# Aperçu
 
 <p align="center">
     <img src="img/preview.gif" alt="animated" />
